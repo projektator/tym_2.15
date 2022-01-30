@@ -1,12 +1,12 @@
-package pl.edu.wsiz.io11.part2;
+//package pl.edu.wsiz.io11.part2;
 
-public class Manager extends Employee {
+//public class Manager extends Employee {
 
-    public Manager(String firstname, String lastname, byte age, Sex sex, int salary, String[] skills) {
-        super(firstname, lastname, age, sex, salary, skills);
-    }
+//    public Manager(String firstname, String lastname, byte age, Sex sex, int salary, String[] skills) {
+        //super(firstname, lastname, age, sex, salary, skills);
+    //}
 
-    public static Manager read() {
-        return new Manager(readFirstname(), readLastname(), readAge(), readSex(), readSalary(), readSkills());
-    }
-}
+    //public static Manager read() {
+      //  return new Manager(readFirstname(), readLastname(), readAge(), readSex(), readSalary(), readSkills());
+   // }
+//}
