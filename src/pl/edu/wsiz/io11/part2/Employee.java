@@ -1,8 +1,8 @@
-package pl.edu.wsiz.io11.part3;
+package pl.edu.wsiz.io11.part2;
 
 import java.util.Scanner;
 
-public abstract class Employee {
+public class Employee {
     private String firstname;
     private String lastname;
     private byte age;
