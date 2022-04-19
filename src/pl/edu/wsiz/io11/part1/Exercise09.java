@@ -3,20 +3,18 @@ package pl.edu.wsiz.io11.part1;
 public class Exercise09 {
 
     /**
-       9. Napisz metodę wyznaczającą średnią arytmetyczną w tablicy liczb rzeczywistych.
+     * 9. Napisz metodę wyznaczającą średnią arytmetyczną w tablicy liczb rzeczywistych.
      */
 
     public static void main(String[] args) {
-        double[] tab = {2, 6, 16};
-
-        System.out.println("Średnia: " + calcAverage(tab));
-    }
-
-    static double calcAverage(double[] tab) {
+        double[] numbers = {2.5, 3.2, 33.1, -8};
         double sum = 0;
-        for (double number : tab) {
+        for (double number : numbers) {
+
             sum += number;
         }
-        return sum / tab.length;
+
+        double avg = sum / numbers.length;
+        System.out.println(" Avg: " + avg);
     }
 }

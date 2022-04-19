@@ -16,8 +16,7 @@ public class Exercise07 {
 
         int number = 14;
 
-        while (number >= 0) {
-            System.out.printf("%d%s", number, number > 0 ? ", " : "");
+        while (number >= 0) {System.out.printf("%d%s", number, number > 0 ? ", " : "");
 
             number--;
         }
